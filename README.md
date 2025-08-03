@@ -1,4 +1,4 @@
-### Introduction
+## Introduction
 
 Phage and bacterial genomes coevolve, leaving patterns in their sequences. Sequence homology remains a widely used approach for identifying known phage–host pairs [1]. Recently, **k-mer based methods** have become popular, as shared oligonucleotide usage between phages and hosts provides useful predictive signals [2].
 Recent studies have leveraged various computational methods to infer phage-host relationships from k-mer profiles. This project follows a similar direction, using a subset of viral genome data from [inphared](https://url.au.m.mimecastprotect.com/s/uOKECxng4BI1KD5w5u8fviyNg8O?domain=github.com) to:
