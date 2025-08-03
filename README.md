@@ -117,8 +117,6 @@ This script generates k-mer frequency vectors from the filtered genome sequences
   (myenv) python3 kmer_builder.py -k 5  # builds 5-mer vectors (default is k=4)
   ```
 
-A precomputed 4-mer matrix is available and can be used directly for clustering or classification.
-All data files are stored in ./data folder.
 
 #### `helpers.py`
 
