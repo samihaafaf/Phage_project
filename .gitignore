@@ -1,0 +1,7 @@
+data/all_data_clustered.csv
+data/filtered_fasta_data.csv
+data/filtered_meta_data.csv
+data/k_mer_matrix.csv
+data/pca_data_clustered.csv
+data/PCA_selected_kmer_matrix.csv
+data.zip
