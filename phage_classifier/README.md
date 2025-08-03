@@ -1,8 +1,8 @@
 
 ### 🧠 Viral Host Classification Using SVM or Neural Network
-**Script** - train_and_predict.py
+**Script**: train_and_predict.py
 
-This script trains a **classification model** to predict one of 22 viral host classes using features derived from the k-mer matrix.
+This script trains and tests a **classification model** to predict one of 22 viral host classes using features derived from the k-mer matrix.
 
 It takes the following input files from the `data/` folder:
 
