@@ -48,7 +48,7 @@ You can customize the training process using the following optional arguments:
 
 ### Neural net Architecture
 
-The **neural network architecture** used in this script replicates the design from the referenced study *(cite)*,  
+The **neural network architecture** used in this script replicates the model architecture from the study [1],  
 with one modification: the number of hidden units is set to **128** to improve classification performance.
 
 ---
@@ -79,5 +79,20 @@ Depending on the selected model, different evaluation outputs are generated and 
 4. **Model Architecture Visualization**
 
 
+## 📈 Prediction Summary
+
+With a test split of **0.2**, the **SVM model** achieves a prediction accuracy of approximately **91%**.  
+While SVM is **faster** in terms of prediction time, its performance can be **surpassed** by the neural network when trained for more than **7000 epochs** with **128 hidden units** using the default configuration.
+
+The **neural network** shows a **stable learning behavior**, as observed in the smooth train-test loss curves. Its performance and efficiency can be further improved by:
+
+- Modifying the **network architecture**
+- **Tuning hyperparameters** such as learning rate, hidden units, and epochs
+
+Overall, the neural network holds greater potential for improved classification accuracy with proper optimization.
+
+
+### References
+[1] Çi̇ftçi̇, B., & Teki̇n, R. (2024). Prediction of viral families and hosts of single-stranded RNA viruses based on K-Mer coding from phylogenetic gene sequences. Computational Biology and Chemistry, 112, 108114.
 
 
