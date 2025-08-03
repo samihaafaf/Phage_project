@@ -136,7 +136,7 @@ This module is used in kmer_builder script and provides essential functions for:
 - [Clustering Analysis Documentation](https://github.com/samihaafaf/Phage_project/tree/main/clustering_analysis)  
   Details the unsupervised analysis pipeline using k-mer frequency vectors, including PCA, clustering, and feature exploration.
 
-- [Phage Classifier Documentation](https://example.com/phage_classifier)  
+- [Phage Classifier Documentation](https://github.com/samihaafaf/Phage_project/tree/main/phage_classifier)  
   Covers the supervised classification component, including model architecture, training procedures, and evaluation metrics.
  
 
